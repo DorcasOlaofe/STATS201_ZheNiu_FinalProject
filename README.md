@@ -121,8 +121,6 @@ The XGBoost model, optimized through extensive hyperparameter tuning, achieved t
 
 - Recorded presentations detailing our research process, findings, and future directions.
 
-### Review articles
-- References to review articles that have cited this work.
 
 ## More about the Author
 
@@ -143,31 +141,129 @@ The XGBoost model, optimized through extensive hyperparameter tuning, achieved t
 
 ### Data Source
 
-- **Data Source Title and URL:** "Multi-Class Prediction of Obesity Risk" [Kaggle Dataset](https://www.kaggle.com/competitions/multi-class-prediction-of-obesity-risk)
+- **Data Source Title and URL:** Kaggle's Multi-Class Prediction of Obesity Risk Dataset. Accessed: [Obesity Risk Dataset](https://www.kaggle.com/competitions/playground-series-s4e2/data)
+
 
 ### Code Source
 
-- **Code Source Title and URL:** GitHub Repository [Project Code](https://github.com/yourgithubusername/project-repository)
+- **Optuna framework for hyperparameters optimization** Kaggle Repository [Project Code]([https://github.com/yourgithubusername/project-repository](https://www.kaggle.com/code/kapturovalexander/kapturov-s-solution-of-ps-s4e2))
+- **SHAP visualizes the decision-making process**  Kaggle Repository [Project Code1](https://www.kaggle.com/code/divyam6969/beginners-92-accuracy-obesity-lgbm)
 
-### Articles
-
-- **Article Source Title and URL:** [Link to relevant article](#)
 
 ### Literature
 
-#### Literature References in Chicago Author-Date Style and BibTex
+#### Literature References in APA Author-Date Style and BibTex
 
-Levin, Dan, and Luyao Zhang. 2020. “Bridging Level-K to Nash Equilibrium.” The Review of Economics and Statistics 104 (6): 1329–40. https://doi.org/10.1162/rest_a_00990.
+- Roblin, L. (2007). Childhood obesity: food, nutrient, and eating-habit trends and influences. Applied Physiology, Nutrition, and Metabolism, 32(4), 635-645.
+- Marti, A., Moreno-Aliaga, M. J., Hebebrand, J., & Martinesz, J. A. (2004). Genes, lifestyles and obesity. International Journal of Obesity, 28(3), S29-S36.
+- DeGregory, K. W., Kuiper, P., DeSilvio, T., Pleuss, J. D., Miller, R., Roginski, J. W., ... & Thomas, D. M. (2018). A review of machine learning in obesity. *Obesity Reviews, 19*(5), 668-685.
+- Ferdowsy, F., Rahi, K. S. A., Jabiullah, M. I., & Habib, M. T. (2021). A machine learning approach for obesity risk prediction. *Current Research in Behavioral Sciences, 2*, 100053.
+- Jeon, J., Lee, S., & Oh, C. (2023). Age-specific risk factors for the prediction of obesity using a machine learning approach. *Frontiers in Public Health, 10*, 998782.
+- Tandiono, S. M., & Sanjaya, S. A. (2024). Machine Learning Approach of Obesity Level Classification: A Systematic Literature Review of Methods and Factors. *G-Tech: Jurnal Teknologi Terapan, 8*(1), 196-208.
+- Kane, L. T., Fang, T., Galetta, M. S., Goyal, D. K., Nicholson, K. J., Kepler, C. K., ... & Schroeder, G. D. (2020). Propensity score matching: a statistical method. Clinical spine surgery, 33(3), 120-122.
+- Burnett, J. W., & Blackwell, C. (2023). Graphical causal modelling: an application to identify and estimate cause-and-effect relationships. Applied Economics, 1-15.
+- Fan, J., Wang, Z., Xie, Y., & Yang, Z. (2020, July). A theoretical analysis of deep Q-learning. In Learning for dynamics and control (pp. 486-489). PMLR.
+- Sutton, R. S., & Barto, A. G. (2018). Reinforcement learning: An introduction. MIT press.
 
 ```bibtex
-@article{levin2022bridging,
-  title={Bridging level-k to nash equilibrium},
-  author={Levin, Dan and Zhang, Luyao},
-  journal={Review of Economics and Statistics},
-  volume={104},
-  number={6},
-  pages={1329--1340},
-  year={2022},
-  publisher={MIT Press One Rogers Street, Cambridge, MA 02142-1209, USA journals-info~…}
+@article{roblin2007childhood,
+  title={Childhood obesity: food, nutrient, and eating-habit trends and influences},
+  author={Roblin, L.},
+  journal={Applied Physiology, Nutrition, and Metabolism},
+  volume={32},
+  number={4},
+  pages={635--645},
+  year={2007},
+  publisher={NRC Research Press}
 }
+
+@article{marti2004genes,
+  title={Genes, lifestyles and obesity},
+  author={Marti, A. and Moreno-Aliaga, M. J. and Hebebrand, J. and Martinesz, J. A.},
+  journal={International Journal of Obesity},
+  volume={28},
+  number={3},
+  pages={S29--S36},
+  year={2004},
+  publisher={Nature Publishing Group}
+}
+
+@article{degregory2018review,
+  title={A review of machine learning in obesity},
+  author={DeGregory, K. W. and Kuiper, P. and DeSilvio, T. and Pleuss, J. D. and Miller, R. and Roginski, J. W. and Fisher, C. B. and Harness, D. and Viswanath, S. and Heymsfield, S. B. and Dungan, I. and Thomas, D. M.},
+  journal={Obesity Reviews},
+  volume={19},
+  number={5},
+  pages={668--685},
+  year={2018},
+  publisher={Wiley Online Library}
+}
+
+@article{ferdowsy2021machine,
+  title={A machine learning approach for obesity risk prediction},
+  author={Ferdowsy, F. and Rahi, K. S. A. and Jabiullah, M. I. and Habib, M. T.},
+  journal={Current Research in Behavioral Sciences},
+  volume={2},
+  pages={100053},
+  year={2021},
+  publisher={Elsevier}
+}
+
+@article{jeon2023age,
+  title={Age-specific risk factors for the prediction of obesity using a machine learning approach},
+  author={Jeon, J. and Lee, S. and Oh, C.},
+  journal={Frontiers in Public Health},
+  volume={10},
+  pages={998782},
+  year={2023},
+  publisher={Frontiers}
+}
+
+@article{tandiono2024machine,
+  title={Machine Learning Approach of Obesity Level Classification: A Systematic Literature Review of Methods and Factors},
+  author={Tandiono, S. M. and Sanjaya, S. A.},
+  journal={G-Tech: Jurnal Teknologi Terapan},
+  volume={8},
+  number={1},
+  pages={196--208},
+  year={2024},
+  publisher={G-Tech Journal}
+}
+
+@article{kane2020propensity,
+  title={Propensity score matching: a statistical method},
+  author={Kane, L. T. and Fang, T. and Galetta, M. S. and Goyal, D. K. and Nicholson, K. J. and Kepler, C. K. and Schroeder, G. D.},
+  journal={Clinical spine surgery},
+  volume={33},
+  number={3},
+  pages={120--122},
+  year={2020},
+  publisher={Wolters Kluwer Philadelphia, PA}
+}
+
+@article{burnett2023graphical,
+  title={Graphical causal modelling: an application to identify and estimate cause-and-effect relationships},
+  author={Burnett, J. W. and Blackwell, C.},
+  journal={Applied Economics},
+  pages={1--15},
+  year={2023},
+  publisher={Taylor & Francis}
+}
+
+@inproceedings{fan2020theoretical,
+  title={A theoretical analysis of deep Q-learning},
+  author={Fan, J. and Wang, Z. and Xie, Y. and Yang, Z.},
+  booktitle={Learning for dynamics and control},
+  pages={486--489},
+  year={2020},
+  organization={PMLR}
+}
+
+@book{sutton2018reinforcement,
+  title={Reinforcement learning: An introduction},
+  author={Sutton, R. S. and Barto, A. G.},
+  year={2018},
+  publisher={MIT press}
+}
+
 

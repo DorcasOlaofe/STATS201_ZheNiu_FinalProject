@@ -59,6 +59,47 @@ Our code includes scripts for data preprocessing, model training, hyperparameter
 
 The XGBoost model, optimized through extensive hyperparameter tuning, achieved the highest accuracy and F1-score, marking 'Weight', 'Gender', and 'CH2O' as the most critical predictors. SHAP analysis offered deeper insights into feature impact, enhancing our understanding of obesity risk factors.
 
+
+## Part VII: Future Research Directions
+### Causal Inference in Obesity Risk Prediction
+#### Background/Motivation
+- Building on our current research, applying causal inference methods can offer deeper insights into the mechanisms driving obesity. Understanding causal relationships between lifestyle factors and obesity could lead to more effective interventions.
+
+#### Research Questions
+- What are the causal effects of specific lifestyle factors on obesity risk?
+- How do confounding variables influence the relationship between lifestyle factors and obesity?
+#### Methods
+- We propose using the Potential Outcomes Framework and Directed Acyclic Graphs (DAGs) to identify causal relationships. Specifically, Propensity Score Matching (PSM) could adjust for confounders in observational data, isolating the effect of treatment (e.g., physical activity level) on the target (obesity risk).
+
+- Algorithm/Software: We plan to use R's MatchIt package for PSM and dagitty for DAG visualization.
+#### References 
+- Stuart (2010) for PSM techniques; Textor et al. (2011) for DAGs.
+#### Potential Results
+- Identifying lifestyle factors with a causal impact on obesity risk. Highlighting the role of confounding variables in these relationships.
+#### Contributions
+- Advancing understanding of obesity's causal determinants. Informing targeted lifestyle interventions for obesity prevention.
+![Causal_Inference](spotlight/Causal_Inference.png)
+
+### Optimization in Obesity Intervention Strategies
+#### Background/Motivation
+- Optimization methods can enhance the design of personalized obesity intervention strategies, maximizing their effectiveness and efficiency.
+
+#### Research Questions
+- How can we optimize personalized obesity intervention strategies?
+- What combination of lifestyle changes yields the best outcome in reducing obesity risk?
+#### Methods
+- Employing Reinforcement Learning (RL) to develop an optimization model that iterates through lifestyle interventions, learning the most effective strategies for individuals based on their responses.
+
+- Algorithm/Software: Q-learning or Deep Q-Networks (DQN), implemented using Python's TensorFlow or PyTorch.
+#### References 
+- Mnih et al. (2015) for DQN; Sutton and Barto (2018) for RL principles.
+#### Potential Results
+- Development of a model that recommends optimal, personalized lifestyle interventions for obesity prevention.
+#### Contributions
+- Creating a dynamic, adaptive approach to obesity prevention. Enhancing the personalization and effectiveness of health interventions.
+
+![optimization](spotlight/optimization.png)
+
 ## Spotlight
 
 
@@ -83,22 +124,20 @@ The XGBoost model, optimized through extensive hyperparameter tuning, achieved t
 ### Review articles
 - References to review articles that have cited this work.
 
-### Media appearance
-- Mentions of this project in media outlets or press releases.
-
 ## More about the Author
 
 ### Headshot
-![nz](nz.png)
+![nz](nz_profile.png)
 
 ### Self-introduction
-- This project has significantly contributed to my understanding of machine learning applications in healthcare, particularly in predicting and analyzing obesity risk.
+- Zhe Niu is a Bachelor of Science in Data Science student at Duke Kunshan University, expected to graduate in June 2024. He has a strong background in finance and AI, with experience in research and practical applications of data science in the financial industry. This project has significantly contributed to his understanding of machine learning applications in healthcare, particularly in predicting and analyzing obesity risk.
 
 
 ### Final reflections
-- **Intellectual Growth:** Insights into how the project contributed to the author's knowledge expansion.
-- **Professional Growth:** Discussion on professional skills developed through the project.
-- **Living a Purposeful Life:** Reflections on how the project aligns with personal values and life goals.
+- **Intellectual Growth:** This course has expanded my understanding of how machine learning can address complex social and economic challenges, illustrating the transformative potential of interdisciplinary research. The magic lies in integrating diverse perspectives and methodologies to uncover novel solutions.
+- **Professional Growth:** Through this course, I've gained a multifaceted skill set, combining data science with insights from social sciences, thereby enriching my professional profile. This holistic approach is crucial for tackling real-world problems effectively.
+- **Living a Purposeful Life:** I aspire to be a pioneer in using data science for public health, aiming to contribute to breakthroughs that enhance well-being and advance human civilization. My dream is to be recognized for creating algorithms that significantly reduce global disease burdens, contributing to a healthier, more informed world.
+- "For pioneering the application of data science to public health, revolutionizing our approach to disease prevention and health promotion."
 
 ## References
 

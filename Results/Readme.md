@@ -15,3 +15,6 @@
 ### **Summary:**
 
 In summary, our study not only validated the predictive power of machine learning in assessing obesity risk but also illuminated the key drivers behind obesity predictions. Through advanced modeling, hyperparameter optimization, and innovative feature importance evaluation, we have contributed valuable insights into the complex interplay of factors influencing obesity risk.
+
+### **Flowchart of Results:**
+![Results](Results.png)

@@ -39,7 +39,7 @@ Model performance is assessed through accuracy, precision, recall, F1-score, and
 Through iterative refinement—feature adjustment, hyperparameter tuning, and algorithm testing—and cross-validation, we enhance model accuracy and ensure robustness.
 
 ## Flowchart of Method 
-![Method Flowchart](Method_Flowchart.png) 
+![Method Flowchart](Method.png) 
 
 ## References
 - Roblin, L. (2007). Childhood obesity: food, nutrient, and eating-habit trends and influences. *Applied Physiology, Nutrition, and Metabolism*, 32(4), 635-645.

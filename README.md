@@ -5,7 +5,7 @@
 **Author:** Zhe Niu, Data Science, 2024, Duke Kunshan University  
 **Instructor:** Prof. Luyao Zhang, Duke Kunshan University  
 **Disclaimer:** This project is a submission for the Final Project in STATS201 Introduction to Machine Learning for Social Science, 2023 Autumn Term (Seven Week - Second) instructed by Prof. Luyao Zhang at Duke Kunshan University.  
-**Acknowledgments:** I would like to express my deepest gratitude to Prof. Luyao Zhang for her invaluable guidance and insights throughout this project. Additionally, I am grateful to my peers, particularly [Name of Peers], for their support and constructive feedback during the project development phase. Special thanks to the Duke Kunshan University's Data Science staff, including [Staff Names], for providing the necessary resources and tools for completing this project.
+**Acknowledgments:** I would like to express my deepest gratitude to Prof. Luyao Zhang for her invaluable guidance and insights throughout this project. Additionally, I am grateful to my peers for their support and constructive feedback during the project development phase. 
 
 ## Project Summary
 

@@ -67,6 +67,7 @@ The chosen dataset provides a comprehensive view of the factors influencing obes
 
 ## Pseudo-Code for Data Analysis Process
 
+```latex
 \begin{algorithm}
 \caption{Data Query and Analysis Process}\label{alg:data_query_analysis}
 \begin{algorithmic}[1]

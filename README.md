@@ -65,17 +65,16 @@ The XGBoost model, optimized through extensive hyperparameter tuning, achieved t
 ### Posters
 - Poster presentations showcasing key findings and methodology.
 
-![poster](https://github.com/Rising-Stars-by-Sunshine/STATS201_ZheNiu_FinalProject/tree/main/spotlight/Stats201_Zhe_Niu_poster.png)
-
+![poster](spotlight/Stats201_Zhe_Niu_poster.png)
 ### Figures
 - Visual representations of data distributions, model performance metrics, and feature importance scores.
 
-![performance.png](https://github.com/Rising-Stars-by-Sunshine/STATS201_ZheNiu_FinalProject/tree/main/spotlight/performance.png)
+![performance.png](spotlight/performance.png)
 
 
-![feature_importance.png](https://github.com/Rising-Stars-by-Sunshine/STATS201_ZheNiu_FinalProject/tree/main/spotlight/feature_importance.pn)
+![feature_importance.png](spotlight/feature_importance.pn)
 
-![shap.png](https://github.com/Rising-Stars-by-Sunshine/STATS201_ZheNiu_FinalProject/tree/main/spotlight/shap.png)
+![shap.png](spotlight/shap.png)
 
 ### Presentations
 

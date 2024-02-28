@@ -54,3 +54,57 @@ The chosen dataset provides a comprehensive view of the factors influencing obes
 #### Feature Importance and Model Interpretation
 - The importance of different features in the predictive models is analyzed to identify the most significant predictors of obesity.
 - SHAP values are computed for the XGBoost model to offer a deeper understanding of the model's decision-making process, highlighting how different features contribute to the model's predictions.
+
+## Flowchart for Data Query & Data Analysis
+![Data A](Data_A.png)
+
+## Reference
+- Kaggle's Multi-Class Prediction of Obesity Risk Dataset. Accessed: [Obesity Risk Dataset](https://www.kaggle.com/competitions/playground-series-s4e2/data)
+
+## Pseudo-Code for Data Query Process
+![Code](Code.png)
+
+
+## Pseudo-Code for Data Analysis Process
+
+\begin{algorithm}
+\caption{Data Query and Analysis Process}\label{alg:data_query_analysis}
+\begin{algorithmic}[1]
+
+\Require Access to relevant data sources (databases, APIs, files)
+\Ensure Insights derived from data to inform decision-making
+
+\State \textbf{Identify} data requirements based on analysis goals
+\State \textbf{Acquire} data from appropriate sources (e.g., API calls, database queries, file reads)
+
+\Comment{Data Collection}
+
+\State \textbf{Inspect} and \textbf{clean} the collected data (handle missing values, outliers, duplicates)
+\State \textbf{Transform} data as necessary (normalization, encoding categorical variables, feature engineering)
+
+\Comment{Data Preprocessing}
+
+\State \textbf{Analyze} data using statistical methods and/or machine learning models
+\State \textbf{Visualize} key findings for better understanding and presentation
+
+\Comment{Data Analysis and Visualization}
+
+\For{\textbf{each} analysis or model}
+    \State Define metrics for success
+    \State Execute analysis or train model
+    \State Evaluate results against success metrics
+    \If{results are not satisfactory}
+        \State Refine model or analysis approach and repeat
+    \EndIf
+\EndFor
+
+\Comment{Iterative Refinement}
+
+\State \textbf{Interpret} results in the context of the initial goals
+\State \textbf{Communicate} findings to stakeholders through reports, dashboards, presentations
+
+\Comment{Insight Communication and Decision Support}
+
+\end{algorithmic}
+\end{algorithm}
+

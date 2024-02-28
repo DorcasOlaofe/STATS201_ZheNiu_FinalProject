@@ -72,8 +72,7 @@ The XGBoost model, optimized through extensive hyperparameter tuning, achieved t
 - We propose using the Potential Outcomes Framework and Directed Acyclic Graphs (DAGs) to identify causal relationships. Specifically, Propensity Score Matching (PSM) could adjust for confounders in observational data, isolating the effect of treatment (e.g., physical activity level) on the target (obesity risk).
 
 - Algorithm/Software: We plan to use R's MatchIt package for PSM and dagitty for DAG visualization.
-#### References 
-- Stuart (2010) for PSM techniques; Textor et al. (2011) for DAGs.
+
 #### Potential Results
 - Identifying lifestyle factors with a causal impact on obesity risk. Highlighting the role of confounding variables in these relationships.
 #### Contributions
@@ -91,8 +90,7 @@ The XGBoost model, optimized through extensive hyperparameter tuning, achieved t
 - Employing Reinforcement Learning (RL) to develop an optimization model that iterates through lifestyle interventions, learning the most effective strategies for individuals based on their responses.
 
 - Algorithm/Software: Q-learning or Deep Q-Networks (DQN), implemented using Python's TensorFlow or PyTorch.
-#### References 
-- Mnih et al. (2015) for DQN; Sutton and Barto (2018) for RL principles.
+
 #### Potential Results
 - Development of a model that recommends optimal, personalized lifestyle interventions for obesity prevention.
 #### Contributions

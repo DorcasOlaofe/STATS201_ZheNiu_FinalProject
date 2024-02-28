@@ -144,8 +144,8 @@ The XGBoost model, optimized through extensive hyperparameter tuning, achieved t
 
 ### Code Source
 
-- **Optuna framework for hyperparameters optimization** Kaggle Repository [Project Code]([https://github.com/yourgithubusername/project-repository](https://www.kaggle.com/code/kapturovalexander/kapturov-s-solution-of-ps-s4e2))
-- **SHAP visualizes the decision-making process**  Kaggle Repository [Project Code1](https://www.kaggle.com/code/divyam6969/beginners-92-accuracy-obesity-lgbm)
+- **Optuna framework for hyperparameters optimization** Kaggle Repository [Kapturov's solution of PS S4E2](https://www.kaggle.com/code/kapturovalexander/kapturov-s-solution-of-ps-s4e2)
+- **SHAP visualizes the decision-making process**  Kaggle Repository [(Beginners) 92% Accuracy - Obesity  LGBM](https://www.kaggle.com/code/divyam6969/beginners-92-accuracy-obesity-lgbm)
 
 
 ### Literature

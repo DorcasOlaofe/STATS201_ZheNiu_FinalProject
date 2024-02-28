@@ -2,9 +2,14 @@
 ![Literature](Literature.png)
 ![Dataset](Dataset.png)
 ![Data_A](Data_A.png)
-![Method](Code.png)
-![Code](Code.png)
+![Method](Method.png)
+
 ![Results](Results.png)
+
+## Code
+
+![Code](Code.png)
+
 ## Results
 
 ![performance](performance.png)

@@ -72,7 +72,7 @@ The XGBoost model, optimized through extensive hyperparameter tuning, achieved t
 ![performance.png](spotlight/performance.png)
 
 
-![feature_importance.png](spotlight/feature_importance.pn)
+![feature_importance.png](spotlight/feature_importance.png)
 
 ![shap.png](spotlight/shap.png)
 

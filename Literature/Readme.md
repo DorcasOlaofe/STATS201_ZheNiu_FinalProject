@@ -20,6 +20,9 @@ Our research on predicting obesity risk levels through machine learning models i
 
 - **Comprehensive Data Preprocessing:** Our meticulous data preprocessing strategy, which includes label encoding and the transformation of categorical variables into numerical scores, builds upon the foundational work of previous research. This process ensures a clean, well-structured dataset that maximizes the predictive capabilities of our machine learning models.
 
+# Flowchart of Literature Part
+![Literature](Literature.png)
+
 ## References
 
 - DeGregory, K. W., Kuiper, P., DeSilvio, T., Pleuss, J. D., Miller, R., Roginski, J. W., ... & Thomas, D. M. (2018). A review of machine learning in obesity. *Obesity Reviews, 19*(5), 668-685.

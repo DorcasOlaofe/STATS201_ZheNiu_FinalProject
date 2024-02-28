@@ -69,42 +69,55 @@ The chosen dataset provides a comprehensive view of the factors influencing obes
 
 ```latex
 \begin{algorithm}
-\caption{Data Query and Analysis Process}\label{alg:data_query_analysis}
+\caption{Enhanced Data Query and Analysis for Obesity Risk Prediction}
+\label{alg:enhanced_obesity_pred}
 \begin{algorithmic}[1]
 
-\Require Access to relevant data sources (databases, APIs, files)
-\Ensure Insights derived from data to inform decision-making
+\Require Kaggle API installed, dataset available on Kaggle
+\Ensure Processed and encoded dataset ready for advanced ML model training and in-depth evaluation
 
-\State \textbf{Identify} data requirements based on analysis goals
-\State \textbf{Acquire} data from appropriate sources (e.g., API calls, database queries, file reads)
+\State \textbf{Set} Kaggle API credentials
+\State \texttt{kaggle datasets download -c multi-class-prediction-of-obesity-risk}
+\State \texttt{unzip multi-class-prediction-of-obesity-risk.zip}
 
-\Comment{Data Collection}
+\State $data \gets$ \textbf{Read} \texttt{'obesity_dataset.csv'} into pandas DataFrame
+\Comment{Initial Data Loading and Exploration}
+\State \textbf{Print} $data.describe()$ and $data.info()$ to inspect dataset characteristics
 
-\State \textbf{Inspect} and \textbf{clean} the collected data (handle missing values, outliers, duplicates)
-\State \textbf{Transform} data as necessary (normalization, encoding categorical variables, feature engineering)
+\State $features, labels \gets$ \textbf{Separate} $data$ into features and labels
+\Comment{Data Segregation}
+\State $df\_numerical, df\_categorical \gets$ \textbf{Split} $features$ based on data type
+\Comment{Data Type Segregation}
 
-\Comment{Data Preprocessing}
+\State $df\_encoded \gets$ \textbf{Apply} label encoding to $df\_categorical$
+\State $df\_onehot \gets$ \textbf{Apply} one-hot encoding to $df\_categorical['MTRANS']$
+\Comment{Feature Encoding}
 
-\State \textbf{Analyze} data using statistical methods and/or machine learning models
-\State \textbf{Visualize} key findings for better understanding and presentation
+\State $df\_all\_features \gets$ \textbf{Concatenate} $df\_numerical$ and $df\_encoded$ excluding redundant one-hot feature
+\Comment{Feature Concatenation}
 
-\Comment{Data Analysis and Visualization}
+\State $X, y \gets$ \textbf{Prepare} final datasets from $df\_all\_features$ and $labels\_encoded$
+\Comment{Final Dataset Preparation}
 
-\For{\textbf{each} analysis or model}
-    \State Define metrics for success
-    \State Execute analysis or train model
-    \State Evaluate results against success metrics
-    \If{results are not satisfactory}
-        \State Refine model or analysis approach and repeat
-    \EndIf
+\State \textbf{Split} $X, y$ into $X\_train, X\_validation, y\_train, y\_validation$ with stratification
+\Comment{Dataset Splitting}
+
+\State Initialize $models \gets$ \{\texttt{GradientBoostingClassifier, RandomForestClassifier, LGBMClassifier, XGBClassifier}\}
+\Comment{Model Initialization}
+
+\For{\textbf{each} model in models}
+    \State \textbf{Train} model on $X\_train, y\_train$
+    \State $y\_pred \gets$ \textbf{Predict} on $X\_validation$
+    \State Calculate and \textbf{Print} accuracy, precision, recall, F1-score for model
+    \Comment{Model Training and Evaluation}
 \EndFor
 
-\Comment{Iterative Refinement}
+\State $best\_params \gets$ \textbf{Optimize} using Optuna for $XGBClassifier$
+\Comment{Hyperparameter Optimization}
 
-\State \textbf{Interpret} results in the context of the initial goals
-\State \textbf{Communicate} findings to stakeholders through reports, dashboards, presentations
-
-\Comment{Insight Communication and Decision Support}
+\State $feature\_importances \gets$ \textbf{Extract} from best performing model
+\State \textbf{Visualize} $feature\_importances$ and \textbf{Compute} SHAP values
+\Comment{Feature Importance Evaluation}
 
 \end{algorithmic}
 \end{algorithm}

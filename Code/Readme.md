@@ -61,11 +61,11 @@ The chosen dataset provides a comprehensive view of the factors influencing obes
 ## Reference
 - Kaggle's Multi-Class Prediction of Obesity Risk Dataset. Accessed: [Obesity Risk Dataset](https://www.kaggle.com/competitions/playground-series-s4e2/data)
 
-## Pseudo-Code for Data Query Process
+## Pseudo-Code
 ![Code](Code.png)
 
 
-## Pseudo-Code for Data Analysis Process
+## Pseudo-Code for Data Query and Analysis Process
 
 ```latex
 \begin{algorithm}
